@@ -169,6 +169,8 @@ let [primerItem, segundoItem] = inventarioEnMayusculas;
 // Para cualquier otro objeto, imprime: "Mario tiene un(a) [nombre del objeto]."
 //  let inventario = ["hongo", "flor", "trampa", "estrella", "trampa", "pluma"];
 
+//write your code here
+
 for (let cosa of inventario) {
   let cosa_cmp = cosa.toLowerCase();
   //version switch
@@ -194,5 +196,3 @@ for (let cosa of inventario) {
       console.log("Mario tiene un(a) " + cosa + ".")
     }*/
 }
-
-//write your code here
